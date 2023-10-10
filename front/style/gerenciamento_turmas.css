@@ -65,7 +65,7 @@ body {
   position: relative;
   width: calc(25% - 10px);
   height: 150px;
-  background-color: #e74c3c;
+  background-color: #e6d8d3;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -110,7 +110,8 @@ body {
 
 .modal-content {
   background-color: #fff;
-  width: 60%;
+  width: 40%;
+  height: 500px;
   margin: 100px auto;
   padding: 20px;
   border-radius: 5px;
@@ -155,22 +156,15 @@ h3 {
   text-align: center;
 }
 
-.gruposSemTurmaList {
-  display: flex;
-  flex-direction: row; /* Alinhar os campos na horizontal */
-  align-items: center;
-}
-
 ul {
   display: flex;
   flex-direction: column; /* Alinhar os campos na horizontal */
   align-items: center;
 }
 
-.checkbox-container {
+.checkbox {
   display: flex;
   align-items: center;
-  justify-content: center; /* Adicionando isso para centralizar na vertical */
 }
 
 .checkbox-container input {
