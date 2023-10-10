@@ -170,6 +170,7 @@ ul {
 .checkbox-container {
   display: flex;
   align-items: center;
+  justify-content: center; /* Adicionando isso para centralizar na vertical */
 }
 
 .checkbox-container input {
