@@ -129,12 +129,17 @@
             turmaSquare.appendChild(nomeProfessor);
 
             // Cria um ícone de lixeira para deletar a turma
+           //* const imagemIcon = document.createElement("img");
+            //imagemIcon.src = "../front/icon/trash-icon.svg"; // Substitua pelo caminho correto da imagem
+            //imagemIcon.alt = "Ícone";
+            //imagemIcon.className = "trash-icon";
+            //imagemIcon.width = 20;
+           // imagemIcon.height = 20;
+            //imagemIcon.id = `${turmaId}`; // Adiciona o ID da turma ao ícone de deletar*
             const imagemIcon = document.createElement("img");
             imagemIcon.src = "../front/icon/trash-icon.svg"; // Substitua pelo caminho correto da imagem
             imagemIcon.alt = "Ícone";
-            imagemIcon.className = "trash-icon";
-            imagemIcon.width = 20;
-            imagemIcon.height = 20;
+            imagemIcon.className = "trash-icon"; // Aplicando a classe CSS
             imagemIcon.id = `${turmaId}`; // Adiciona o ID da turma ao ícone de deletar
 
             // Adiciona o ícone ao turmaSquare

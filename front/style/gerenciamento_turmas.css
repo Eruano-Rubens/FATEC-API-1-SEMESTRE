@@ -177,3 +177,9 @@ ul {
   width: 150px;
   margin: 0 auto;
 }
+
+.trash-icon {
+  width: 20px;
+  height: 20px;
+  /* Adicione quaisquer outras propriedades de estilo que desejar */
+}
