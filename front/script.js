@@ -27,3 +27,4 @@ document.getElementById('grupos').addEventListener('click', function() {
 document.getElementById('global-settings').addEventListener('click', function() {
     redirecionarParaPagina('global-settings');
 });
+
